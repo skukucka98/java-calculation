@@ -51,6 +51,11 @@ public class Card {
         this(aSuit, aValue);
         faceUp = aFaceUp;
     }
+    
+    public Card(){
+//        faceUp=false;
+        
+    }
         
     /**
      * Return the number of the card
@@ -112,7 +117,7 @@ public class Card {
                 valStr ="Seven";   
                 break;
             case 8:
-                valStr ="Right";   
+                valStr ="Eight";   
                 break;
             case 9:
                 valStr ="Nine";   
@@ -143,8 +148,5 @@ public class Card {
      * 
      * @return true for equal cards and false for not equal cards.
      */
-    public boolean equals(Card otherCard) {
-        return this.getValue() == otherCard.getValue() 
-                && this.mySuit.equals(otherCard.mySuit);
-    }
+
 }
