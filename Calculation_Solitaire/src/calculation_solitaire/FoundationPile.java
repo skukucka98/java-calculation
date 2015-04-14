@@ -20,7 +20,7 @@ public class FoundationPile {
     }
       
     public boolean validFoundation(int b){
-        if(this.myPile[i]==b){
+        if(this.myPile[i+1]==b){
             this.i++;
             return true;
         } else {
