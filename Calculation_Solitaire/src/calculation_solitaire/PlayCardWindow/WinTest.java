@@ -21,16 +21,16 @@ public class WinTest extends javax.swing.JFrame {
      * Creates new form WinTest
      */
     public WinTest() {
-        this.funpile = new int[]{2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 12, 13};
+        this.funpile = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 12, 13};
         funpile1=new FoundationPile(funpile);
         funpile1.setI(11);
-        this.funpile = new int[]{4, 6, 8, 10, 12, 1, 3, 5, 7, 9, 11, 13};
+        this.funpile = new int[]{2, 4, 6, 8, 10, 12, 1, 3, 5, 7, 9, 11, 13};
         funpile2=new FoundationPile(funpile);
         funpile2.setI(12);
-        this.funpile = new int[]{6, 9, 12, 2, 5, 8, 11, 1, 4, 7, 10, 13};
+        this.funpile = new int[]{3, 6, 9, 12, 2, 5, 8, 11, 1, 4, 7, 10, 13};
         funpile3=new FoundationPile(funpile);
         funpile3.setI(12);
-        this.funpile = new int[]{8, 12, 3, 7, 11, 2, 6, 10, 1, 5, 9, 13};
+        this.funpile = new int[]{4, 8, 12, 3, 7, 11, 2, 6, 10, 1, 5, 9, 13};
         funpile4=new FoundationPile(funpile);
         funpile4.setI(12);
         

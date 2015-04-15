@@ -33,7 +33,7 @@ public class FoundationPile {
     }
     
     public boolean isFull() {
-        if (i == 13) {
+        if (i == 12) {
             return true;
         } else {
             return false;
